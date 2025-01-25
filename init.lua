@@ -681,6 +681,8 @@ require('lazy').setup({
           end,
         },
       }
+
+      require('lspconfig').pyright.setup {}
     end,
   },
 
